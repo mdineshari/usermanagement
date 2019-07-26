@@ -1,0 +1,46 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+    "DB_DIALECT": {
+      "required": true
+    },
+    "DB_HOST": {
+      "required": true
+    },
+    "DB_NAME": {
+      "required": true
+    },
+    "DB_PASSWORD": {
+      "required": true
+    },
+    "DB_PORT": {
+      "required": true
+    },
+    "DB_USER": {
+      "required": true
+    },
+    "JWT_ENCRYPTION": {
+      "required": true
+    },
+    "JWT_EXPIRATION": {
+      "required": true
+    },
+    "NODE_ENV": {
+      "required": true
+    },
+    "OTP_API_KEY": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "usermanagement",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
